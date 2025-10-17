@@ -1,0 +1,81 @@
+.navbar {
+  background-color: #eebfbf;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline; 
+  margin: 0 20px;  
+} 
+
+body{
+    margin: 0;
+    background-color: #e5f8ff;
+    background-size: cover;
+    background-image: url(pink.jpg);
+
+}
+
+.profile {
+  display: flex;
+  align-items: center;        
+  justify-content: space-between; 
+}
+
+
+.nama {
+  flex: 1;
+  text-align: center;        
+}
+
+.nama h1 {
+  font-size: 36px;
+  color: #914456;
+  margin-bottom: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nama p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.5;
+  max-width: 400px;
+  margin: 0 auto;   
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;         
+}
+
+.gambar {
+  flex: 1;
+  text-align: center;       
+}
+
+.gambar img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;         
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+button{
+    text-align: center; 
+    font-size: medium;
+    background-color: pink;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+a{
+    color: #604242;
+}
+
+
